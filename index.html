@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESP32 GPS Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Leaflet CSS + JS -->
+    <link rel="stylesheet" href="libs/leaflet.css" />
+    <script src="libs/leaflet.js"></script>
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+<div id="panel">
+    <label>Path From:</label>
+    <input type="datetime-local" id="fromTime">
+
+    <label>To:</label>
+    <input type="datetime-local" id="toTime">
+
+    <button id="loadPath">Load Path</button>
+    <button id="setGeofence">Set Boundary</button>
+
+    <span id="alert"></span>
+</div>
+
+<div id="map"></div>
+
+<!-- Only one script to load (ES module entry point) -->
+<script type="module" src="assets/js/app.js"></script>
+
+</body>
+</html>

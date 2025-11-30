@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    height: 90vh;
+    width: 100%;
+}
+
+#panel {
+    background: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#alert {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
