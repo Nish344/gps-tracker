@@ -6,7 +6,7 @@ import {
     onValue,
     get,
     child
-} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
+} from "database-url";
 
 import map, { updateCurrentPosition, drawPath } from "./map.js";
 import { enableGeofence, checkBoundary } from "./geofence.js";
